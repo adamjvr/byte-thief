@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5f425c15-b740-4382-af87-b649ef948b09")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 50.8)
+		(size 38.1 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "05bbdf8c-4a1a-4b4a-95ed-a22f46bc2578")
+		(property "Sheetname" "MCU - RP3050"
+			(at 127 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_RP3050.kicad_sch"
+			(at 127 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "byte-thief-basic"
+				(path "/5f425c15-b740-4382-af87-b649ef948b09"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 127)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 1.0000)
+		)
+		(uuid "1f077d4b-0083-4ee7-b80f-001845a175fc")
+		(property "Sheetname" "Power"
+			(at 127 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 127 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "byte-thief-basic"
+				(path "/5f425c15-b740-4382-af87-b649ef948b09"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 50.8)
+		(size 38.1 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 0 1.0000)
+		)
+		(uuid "3abe641c-4ae9-42c1-8cfe-b55b62940d06")
+		(property "Sheetname" "Interfaces"
+			(at 177.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interfaces.kicad_sch"
+			(at 177.8 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "byte-thief-basic"
+				(path "/5f425c15-b740-4382-af87-b649ef948b09"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
